@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/899/440/original/data-protection-cyber-security-privacy-business-internet-technology-concept-free-photo.jpg);
+    background-repeat: no-repeat;
+    font-size: 140%;
+    background-position: center center;
+    background-size: cover;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#Encabezado {
+    width: 80vw;
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    border-radius: 13.5px;
+    font-size: 150%;
+
+}
+.opcion {
+    width: 70vw;
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 13.5px;
+    cursor: pointer;
+}
+
+.opcion:hover{
+    background: lightcyan;
+
+}
